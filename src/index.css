@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body { @apply bg-gray-900 text-zinc-200 }
+
+a { @apply text-cyan-600 !important; }
+
+input { @apply w-full bg-gray-800 placeholder-gray-400 px-3 py-2 rounded }

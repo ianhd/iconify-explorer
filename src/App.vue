@@ -8,5 +8,5 @@
 </template>
 
 <style>
-#app { }
+#app { width: 600px; margin: 0 auto; }
 </style>

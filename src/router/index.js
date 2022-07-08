@@ -5,9 +5,14 @@ const router = createRouter({
   routes: [
     {
       path: '/',
-      name: 'home',
-      component: () => import('@/views/Home.vue')
-    }
+      name: 'collections',
+      component: () => import('@/views/Collections.vue')
+    },
+    {
+        path: '/collection/:slug',
+        name: 'collection-details',
+        component: () => import('@/views/CollectionDetails.vue')
+    }    
   ]
 })
 
